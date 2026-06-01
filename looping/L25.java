@@ -1,17 +1,13 @@
-class L24
+class L25
 {
     public static void main(String arg[])
 {
-int i;
-i=1;
-do
-{
+    int i;
+    i=10;
+    do
+  {
     System.out.println(i);
-    i++;
+    i--;
+  }while(i>=1);
 }
-while(i<=10);
 }
-}
-
-
-

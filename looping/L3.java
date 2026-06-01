@@ -8,7 +8,7 @@ class L3
          while(i<6)
          {
             System.out.println("hi");
-            (i+2);
+            i+2;
           }
           
     }
