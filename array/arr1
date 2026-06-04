@@ -1,0 +1,336 @@
+
+
+int i;
+i=1;
+while(i<=10)
+{
+	sop(i);
+	i++;
+}
+
+
+
+int i;
+i=1;
+do
+{
+	sop(i);
+	i++;
+}while(i<=10);
+
+
+
+
+
+
+int i;
+i=1;
+for(;i<=10;)
+{
+	sop(i);
+	i++;
+}
+
+or
+int i;
+for(i=1;i<=10;i++)
+{
+	sop(i);	
+}
+
+
+int i;
+for(i=1;i<=20;i++)
+{
+	sop(i);	
+}
+
+
+int i;
+for(i=10;i<=20;i++)
+{
+	sop(i);	
+}
+
+
+
+
+
+int i;
+for(i=10;i>=1;i--)
+{
+	sop(i);	
+}
+
+
+int i;
+for(i=1;i<=10;i++)
+{
+	  if(i==5)
+	  {
+	     break;
+	  }
+	  sop(i);
+}
+
+
+o/p:
+1
+2
+3
+4
+
+
+int i;
+for(i=1;i<=10;i++)
+{
+	  if(i==5)
+	  {
+	     continue;
+	  }
+	  sop(i);
+}
+
+
+o/p:
+1
+2
+3
+4
+6
+7
+8
+9
+10
+
+
+Array
+_________
+
+int a;
+a=10;
+a=20;
+a=30;
+sop(a);
+
+
+o/p:
+30
+
+
+
+int a,b,c;
+a=10;
+b=20;
+c=30;
+
+sop(a+" "+b+" "+c);
+
+
+o/p:
+10 20 30
+
+
+
+int arr[]={10,20,30};
+sop(arr[0]+" "+arr[1]+" "+arr[2]);
+
+
+int arr[]={10,20,30,40,50};
+int index;
+for(index=0;index<5;index++)
+{
+	sop(arr[index]);
+}
+
+
+
+int arr[]={10,20,30,40,50};
+sop(arr.length);// 5
+
+
+
+int arr[]={10,20,30,40,50};
+int index;
+for(index=0;index<arr.length;index++)
+{
+	sop(arr[index]);
+}
+
+
+
+int arr[]={10,20,30,40,50};
+int index;
+for(index=arr.length-1;index>=0;index--)
+{
+	sop(arr[index]);
+}
+
+
+
+int arr[]={10,20,30,40,50};
+int index;
+int s=0;
+for(index=0;index<arr.length;i++)
+{
+	 s=s+arr[index];
+}
+sop("sum of element="+s);
+
+
+
+
+
+int arr[]=new int[3];
+
+sop(arr[0]+" "+arr[1]+" "+arr[2]);
+
+
+o/p:
+0 0 0 
+
+
+int arr[]=new int[3];
+arr[0]=10;
+arr[1]=20;
+arr[2]=30;
+sop(arr[0]+" "+arr[1]+" "+arr[2]);
+
+
+o/p:
+10 20 30
+
+
+
+Scanner sc=new Scanner(System.in);
+int arr[]=new int[3];
+System.out.println("enter 3 elements ");
+arr[0]=sc.nextInt();
+arr[1]=sc.nextInt();
+arr[2]=sc.nextInt();
+sop(arr[0]+" "+arr[1]+" "+arr[2]);
+
+
+
+
+Scanner sc=new Scanner(System.in);
+int arr[]=new int[3];
+System.out.println("enter 3 elements ");
+int index;
+for(index=0;index<arr.length;index++)
+{
+	 arr[index]=sc.nextInt();
+}
+
+System.out.println("elements are ");
+for(index=0;index<arr.length;index++)
+{
+	sop(arr[index]);
+}
+
+
+
+
+Scanner sc=new Scanner(System.in);
+System.out.println("enter  how many element store in array");
+int size=sc.nextInt();
+int arr[]=new int[size];
+System.out.println("enter"+size+" elements ");
+int index;
+for(index=0;index<arr.length;index++)   //arr.length repelace size
+{
+	 arr[index]=sc.nextInt();
+}
+
+System.out.println("elements are ");
+for(index=0;index<arr.length;index++)
+{
+	sop(arr[index]);
+}
+
+
+
+
+Scanner sc=new Scanner(System.in);
+System.out.println("enter  how many element store in array");
+int size=sc.nextInt();
+int arr[]=new int[size];
+System.out.println("enter"+size+" elements ");
+int index;
+for(index=0;index<size;index++)   //arr.length repelace size
+{
+	 arr[index]=sc.nextInt();
+}
+
+System.out.println("elements are ");
+for(index=0;index<size;index++)
+{
+	sop(arr[index]);
+}
+
+
+
+
+Scanner sc=new Scanner(System.in);
+System.out.println("enter  how many element store in array");
+int size=sc.nextInt();
+int arr[]=new int[size];
+System.out.println("enter"+size+" elements ");
+int index;
+for(index=0;index<size;index++)   //arr.length repelace size
+{
+	 arr[index]=sc.nextInt();
+}
+int s=0;
+System.out.println("elements are ");
+for(index=0;index<size;index++)
+{
+	s=s+arr[index];
+}
+Sysem.out.println("sum of element="+s);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
