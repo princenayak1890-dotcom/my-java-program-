@@ -268,7 +268,7 @@ for(index=0;index<size;index++)
 	sop(arr[index]);
 }
 
-
+	
 
 
 Scanner sc=new Scanner(System.in);
@@ -281,7 +281,7 @@ for(index=0;index<size;index++)   //arr.length repelace size
 {
 	 arr[index]=sc.nextInt();
 }
-int s=0;
+int s=0; 
 System.out.println("elements are ");
 for(index=0;index<size;index++)
 {
